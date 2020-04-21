@@ -5,10 +5,10 @@
     <meta name="version" content="v6.5.0" />
     <meta name="CG" content="Crosswords/Games" />
     <meta name="PT" content="spelling bee" />
-    <link rel="manifest" href="/games-assets/v2/metadata/sb-web-manifest.json?v=v6.5.0" />
-    <link rel="apple-touch-icon" sizes="180x180" href="/games-assets/v2/metadata/sb-apple-touch-icon.png?v=v6.5.0" />
-    <link rel="mask-icon" color="#f7cc32" href="/games-assets/v2/metadata/sb-safari-pinned-tab.svg?v=v6.5.0" />
-    <link rel="shortcut icon" href="/games-assets/v2/metadata/sb-favicon.ico?v=v6.5.0" />
+    <link rel="manifest" href="/BuzzWordGame/assets/games-assets/v2/metadata/sb-web-manifest.json?v=v6.5.0" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/BuzzWordGame/assets/games-assets/v2/metadata/sb-apple-touch-icon.png?v=v6.5.0" />
+    <link rel="mask-icon" color="#f7cc32" href="/BuzzWordGame/assets/games-assets/v2/metadata/sb-safari-pinned-tab.svg?v=v6.5.0" />
+    <link rel="shortcut icon" href="/BuzzWordGame/assets/games-assets/v2/metadata/sb-favicon.ico?v=v6.5.0" />
     <meta name="apple-mobile-web-app-title" content="Spelling Bee" />
     <meta name="application-name" content="Spelling Bee" />
     <meta name="msapplication-TileColor" content="#f7cc32" />
@@ -68,6 +68,6 @@
             }
         }
     </style>
-    <link rel="stylesheet" type="text/css" href="/games-assets/v2/foundation.0cb215c4813b7d667be14dd10a393bd5.css" />
-    <link rel="stylesheet" type="text/css" href="/games-assets/v2/foundation-game.1255567f6ff83b0ef9ffc1ce4102d145.css" />
-    <link rel="stylesheet" type="text/css" href="/games-assets/v2/spelling-bee.9508e7e2b1c321ebe7013329708e6f39.css" />
+    <link rel="stylesheet" type="text/css" href="/BuzzWordGame/assets/games-assets/v2/foundation.0cb215c4813b7d667be14dd10a393bd5.css" />
+    <link rel="stylesheet" type="text/css" href="/BuzzWordGame/assets/games-assets/v2/foundation-game.1255567f6ff83b0ef9ffc1ce4102d145.css" />
+    <link rel="stylesheet" type="text/css" href="/BuzzWordGame/assets/games-assets/v2/spelling-bee.9508e7e2b1c321ebe7013329708e6f39.css" />
