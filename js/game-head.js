@@ -1,4 +1,4 @@
-    <title>Spelling Bee - The New York Times</title>
+    <title>BuzzWords Game</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui" />
     <meta http-equiv="Content-Type" content="text/html" charSet="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
@@ -13,8 +13,8 @@
     <meta name="application-name" content="Spelling Bee" />
     <meta name="msapplication-TileColor" content="#f7cc32" />
     <meta name="theme-color" content="#f7cc32" />
-    <meta property="og:title" content="The New York Times Spelling Bee" />
-    <meta property="og:url" content="https://www.nytimes.com/puzzles/spelling-bee" />
+    <meta property="og:title" content="BuzzWords Game" />
+    <meta property="og:url" content="https://buzzwords.fun" />
     <meta property="og:description" content="Play the daily spelling bee" />
     <meta property="og:image" content="https://static01.nyt.com/packages/other/crossword/fb-og/purple.png" />
     <style id="responsive.css">
