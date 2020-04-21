@@ -129,6 +129,7 @@
             "entitlement": "cr"
         }
     </script>
+    <!-- ads
     <script type="text/javascript">
         window.env = {
             "version": "v6.5.0",
@@ -138,6 +139,7 @@
             "name": "prod"
         }
     </script>
+    -->
     <script type="text/javascript">
         window.abra = {
             "GAMES_TP12_SpellingBeeCutoff": "1_good"
@@ -189,6 +191,7 @@
     <script defer="" type="text/javascript" src="/games-assets/v2/foundation.1dddedf5dea1cc1dcadeffd4bc8c8c7a.js"></script>
     <script defer="" type="text/javascript" src="/games-assets/v2/react-bundle.ed5aa23021514c7375186d441aaeb51f.js"></script>
     <script defer="" type="text/javascript" src="/games-assets/v2/spelling-bee.19d29c4ad0a6d0ee7048803012f843bd.js"></script>
+    <!--
     <script type="text/javascript">
         var AdSlot4 = function() {
             "use strict";
@@ -865,4 +868,5 @@
             }()
         }();
     </script>
+    -->
 <!-- </body> -->
