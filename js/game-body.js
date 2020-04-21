@@ -150,7 +150,7 @@
     </script>
     <div id="ratio-hook"></div>
     <div id="width-hook"></div>
-    <script defer="" type="text/javascript" src="/BuzzWordsGame/assets/master/games-assets/v2/polyfills.cf1a343c9aa7a0116d199c3358ceb1bc.js"></script>
+    <script defer="" type="text/javascript" src="/gh//BuzzWordsGame/assets/games-assets/v2/polyfills.cf1a343c9aa7a0116d199c3358ceb1bc.js"></script>
     <script id="responsive.js" defer="" type="text/javascript">
         ! function(n, e) {
             "object" == typeof exports && "undefined" != typeof module ? module.exports = e() : "function" == typeof define && define.amd ? define(e) : (n = n || self).Responsive = e()
@@ -188,9 +188,9 @@
             }
         });
     </script>
-    <script defer="" type="text/javascript" src="/BuzzWordsGame/assets/master/games-assets/v2/foundation.1dddedf5dea1cc1dcadeffd4bc8c8c7a.js"></script>
-    <script defer="" type="text/javascript" src="/BuzzWordsGame/assets/master/games-assets/v2/react-bundle.ed5aa23021514c7375186d441aaeb51f.js"></script>
-    <script defer="" type="text/javascript" src="/BuzzWordsGame/assets/master/games-assets/v2/spelling-bee.19d29c4ad0a6d0ee7048803012f843bd.js"></script>
+    <script defer="" type="text/javascript" src="/gh//BuzzWordsGame/assets/games-assets/v2/foundation.1dddedf5dea1cc1dcadeffd4bc8c8c7a.js"></script>
+    <script defer="" type="text/javascript" src="/gh//BuzzWordsGame/assets/games-assets/v2/react-bundle.ed5aa23021514c7375186d441aaeb51f.js"></script>
+    <script defer="" type="text/javascript" src="/gh//BuzzWordsGame/assets/games-assets/v2/spelling-bee.19d29c4ad0a6d0ee7048803012f843bd.js"></script>
     <!--
     <script type="text/javascript">
         var AdSlot4 = function() {
