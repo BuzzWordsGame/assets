@@ -9,9 +9,6 @@
     </header>
     <div class="pz-intercept"></div>
     <div class="pz-content">
-        <div class="pz-section pz-section-filled pz-ad-box">
-            <div class="pz-ad place-ad" id="TopAd" data-position="top"></div>
-        </div>
         <div class="pz-section" id="spelling-bee-container">
             <div class="pz-row pz-game-title-bar">
                 <div class="pz-module">
@@ -61,9 +58,6 @@
                     }
                 </script>
             </div>
-        </div>
-        <div class="pz-section pz-section-filled pz-ad-box">
-            <div class="pz-ad place-ad" id="TopAd1" data-position="bottom"></div>
         </div>
     </div>
     <footer class="pz-footer">
