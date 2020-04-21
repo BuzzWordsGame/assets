@@ -104,20 +104,6 @@
         </div>
     </div>
     <footer class="pz-footer">
-        <div class="pz-footer__branding pz-flex-row"><a href="https://nytimes.com/"><i class="pz-footer__times-icon"></i></a><a href="http://spiderbites.nytimes.com/">Sitemap</a></div>
-        <div class="pz-footer__navigation">
-            <div class="pz-footer__link-col">
-                <h4>The Crossword</h4><a href="/crosswords">Home</a><a href="/crosswords/archive">Archive</a><a href="/puzzles/stats">Statistics</a><a href="/crosswords/apps">Download Our App</a></div>
-            <div class="pz-footer__link-col">
-                <h4>Support</h4><a href="/content/help/games/crosswords/crosswords.html">FAQs</a><a href="mailto:NYTCrossword@nytimes.com" id="js-feedback-link" target="__blank" rel="external">Send Feedback</a><a href="/subscription/games/lp897H9.html?campaignId=4QHQ8">Subscriptions</a><a href="https://www.nytimes.com/subscription/games/lp3HLK7.html">Give a Subscription</a></div>
-            <div class="pz-footer__link-col">
-                <h4>Community</h4><a href="/column/wordplay">Wordplay</a><a href="https://twitter.com/NYTimesWordplay">Twitter</a><a href="/puzzles/submissions/crossword">Submission Guidelines</a></div>
-            <div class="pz-footer__link-col">
-                <h4>Other Puzzles</h4><a href="/puzzles/kenken">KenKen¨</a><a href="/puzzles/set">Set¨</a><a href="/puzzles/sudoku">Sudoku</a></div>
-        </div>
-        <div class="pz-footer__legal pz-flex-row"><a href="https://www.nytco.com/">© The New York Times Company</a>
-            <div class="pz-footer__legal-links"><a href="/content/help/rights/privacy/policy/privacy-policy.html#pp">Your Ad Choices</a><a href="/privacy">Privacy Policy</a><a href="/content/help/rights/terms/terms-of-service.html">Terms of Service</a><a href="#ccpa-footer" id="ccpa-footer" class="ccpa-opt-out" data-region="footer">Do Not Sell My Personal Information</a></div>
-        </div>
     </footer>
     <script type="text/javascript">
         window.userType = {
@@ -129,17 +115,6 @@
             "entitlement": "cr"
         }
     </script>
-    <!-- ads
-    <script type="text/javascript">
-        window.env = {
-            "version": "v6.5.0",
-            "api": "https:\u002F\u002Fnyt-games-prd.appspot.com",
-            "tagx": "https:\u002F\u002Fa.nytimes.com",
-            "gtm": "https:\u002F\u002Fwww.googletagmanager.com\u002Fgtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x",
-            "name": "prod"
-        }
-    </script>
-    -->
     <script type="text/javascript">
         window.abra = {
             "GAMES_TP12_SpellingBeeCutoff": "1_good"
