@@ -12,8 +12,8 @@
         <div class="pz-section" id="spelling-bee-container">
             <div class="pz-row pz-game-title-bar">
                 <div class="pz-module">
-                    <h2><em class="pz-game-title">Spelling Bee</em><span class="pz-game-date">April 21, 2020</span></h2>
-                    <div class="pz-byline"><span class="pz-byline__text">Edited by Sam Ezersky</span></div>
+                    <h2><em class="pz-game-title">Buzzwords</em><span class="pz-game-date">April 21, 2020</span></h2>
+                    <div class="pz-byline"><span class="pz-byline__text">Inspired by the New York Times Spelling Bee!</span></div>
                 </div>
             </div>
             <div class="pz-game-screen">
@@ -40,7 +40,7 @@
                             "answers": ["jailbird", "arid", "bald", "ballad", "bard", "billiard", "bird", "brad", "braid", "bridal", "dial", "dill", "drab", "drib", "drill", "iliad", "laid", "lard", "rabid", "radar", "radial", "radii", "raid", "railbird", "ribald"],
                             "id": 717,
                             "freeExpiration": 0,
-                            "editor": "Sam Ezersky"
+                            "editor": "BuzzWords"
                         },
                         "yesterday": {
                             "displayWeekday": "Monday",
@@ -53,7 +53,7 @@
                             "answers": ["withdraw", "athwart", "await", "award", "draw", "thaw", "thwart", "twit", "wait", "ward", "wart", "watt", "what", "whir", "whirr", "whit", "width", "with", "wraith", "wrath", "writ"],
                             "id": 7339,
                             "freeExpiration": 0,
-                            "editor": "Sam Ezersky"
+                            "editor": "BuzzWords"
                         }
                     }
                 </script>
