@@ -221,6 +221,8 @@
         href: o.string,
         children: o.string
     };
+
+    //TODO - filter out NYT
     var j = function() {
         return d.createElement(d.Fragment, null, d.createElement("h3", {
             className: "sb-modal-title"
@@ -247,6 +249,7 @@
     };
     j.propTypes = {};
 
+    //TODO - filter out NYT
     function L(e) {
         var t = e.ranks;
         return d.createElement(d.Fragment, null, d.createElement("h3", {
@@ -278,6 +281,7 @@
         window.localStorage.removeItem(I)
     }
 
+    //TODO - filter out NYT
     function R(e) {
         return u.xhr.get("".concat(u.env.api, "/svc/spelling-bee/v1/game/").concat(e, ".json")).then(function(e) {
             return e.answers
@@ -286,6 +290,7 @@
         })
     }
 
+    //TODO - filter out NYT
     function C(e, t) {
         return t.length ? u.xhr.put("".concat(u.env.api, "/svc/spelling-bee/v1/game.json"), {
             puzzleID: e,
@@ -293,6 +298,7 @@
         }) : Promise.resolve()
     }
 
+    //TODO - filter out NYT
     function W(t, n, r) {
         function o() {
             if (window.SIMULATE_OFFLINE) return Promise.reject(new Error("simulating offline"));
@@ -386,6 +392,8 @@
         })
     }
 
+    //TODO - filter out NYT
+
     function F(e) {
         var t = e.children,
             n = void 0 === t ? "Back to the hub" : t,
@@ -472,6 +480,8 @@
         }(r, d.Component);
         var n = H(r);
 
+    //TODO - filter out NYT
+
         function r(e) {
             var t;
             return function(e, t) {
@@ -532,6 +542,8 @@
         id: o.number
     };
 
+    //TODO - filter out NYT
+
     function V(e) {
         var t = e.editor;
         return d.createElement(d.Fragment, null, d.createElement("div", {
@@ -556,6 +568,8 @@
         editor: o.string
     };
 
+    //TODO - filter out NYT
+
     function Z(e) {
         var t = e.wordCount,
             n = e.score;
@@ -570,6 +584,8 @@
         score: o.number
     };
 
+    //TODO - filter out NYT
+
     function ee(e) {
         var t = e.toggleModal;
         return d.createElement("button", {
@@ -583,6 +599,8 @@
     ee.propTypes = {
         toggleModal: o.func.isRequired
     };
+
+    //TODO - filter out NYT
 
     function te(e) {
         var t = e.toggleModal,
@@ -599,6 +617,8 @@
         toggleModal: o.func.isRequired,
         isReturning: o.bool
     };
+
+    //TODO - filter out NYT
 
     function ne(e) {
         var t = e.tag,
@@ -619,6 +639,8 @@
         tag: o.string,
         styleName: o.string
     };
+
+    //TODO - filter out NYT
 
     function re(e) {
         var t = e.score,
@@ -657,6 +679,8 @@
         score: o.number,
         editor: o.string
     };
+
+    //TODO - filter out NYT
 
     function oe(e) {
         var t = e.lock,
@@ -722,6 +746,8 @@
         cutoff: o.bool
     };
 
+    //TODO - filter out NYT
+
     function ce(e) {
         var t = e.hasCompleted,
             n = e.toggleModal,
@@ -774,6 +800,8 @@
         isHalloween: o.bool
     };
 
+    //TODO - filter out NYT
+
     function le(e) {
         var t = e.value,
             n = e.centerLetter,
@@ -801,6 +829,8 @@
         value: o.string,
         centerLetter: o.string
     };
+
+    //TODO - filter out NYT
 
     function ue(e) {
         var t = e.displayDate,
@@ -837,6 +867,8 @@
         answers: o.arrayOf(o.string),
         foundWords: o.arrayOf(o.string)
     };
+
+    //TODO - filter out NYT
 
     function fe(e) {
         var t = e.lock;
@@ -883,6 +915,8 @@
         lock: o.func
     };
 
+    //TODO - filter out NYT
+
     function me(e) {
         var t = e.children,
             n = e.toggleModal,
@@ -907,6 +941,8 @@
             className: "sb-modal-content"
         }, t))
     }
+        //TODO - filter out NYT
+
     var pe = {
         start: 0 < s ? se : ae,
         help: j,
@@ -1020,6 +1056,8 @@
                                 n = e.isClosing,
                                 r = e.currentModal,
                                 o = a[r] || null;
+                                    //TODO - filter out NYT
+
                             return i.createPortal(d.createElement("div", {
                                 className: f("sb-modal-system", {
                                     "sb-modal-open": t,
@@ -1063,6 +1101,8 @@
                     }
                 }, n)
             }
+                //TODO - filter out NYT
+
             return n.propTypes = {
                 modal: o.oneOf(e),
                 className: o.string,
@@ -1272,6 +1312,8 @@
         }
     }
 
+    //TODO - filter out NYT
+
     function Ce(l) {
         return function(e, t) {
             var n = t();
@@ -1303,6 +1345,8 @@
                         var a = n.pangrams.includes(r),
                             c = _e(r, a),
                             s = function(e, t) {
+                                //TODO - filter out NYT
+
                                 return t ? "Pangram!" : 7 <= e ? "Awesome!" : 1 < e ? "Nice!" : "Good!"
                             }(c, a);
                         e({
@@ -1358,6 +1402,8 @@
             }
         }
     }
+        //TODO - filter out NYT
+
     var xe = [
             ["Beginner", 0],
             ["Good Start", 2],
@@ -1555,6 +1601,8 @@
                 }
             }, {
                 key: "render",
+                    //TODO - filter out NYT
+
                 value: function() {
                     var t = this,
                         e = this.props,
@@ -1888,6 +1936,8 @@
                                 type: "outer"
                             })
                         })]);
+                            //TODO - filter out NYT
+
                     return d.createElement(d.Fragment, null, d.createElement("div", {
                         className: "sb-hive"
                     }, d.createElement("div", {
@@ -1934,6 +1984,8 @@
         centerLetter: o.string.isRequired,
         outerLetters: o.arrayOf(o.string).isRequired
     };
+
+    //TODO - filter out NYT
 
     function qt(e) {
         var t = e.input,
@@ -2013,6 +2065,8 @@
         input: o.arrayOf(o.string)
     };
 
+    //TODO - filter out NYT
+
     function Ut(e) {
         var t = e.words,
             n = e.centerLetter;
@@ -2044,6 +2098,8 @@
         words: o.arrayOf(o.string),
         centerLetter: o.string
     };
+
+    //TODO - filter out NYT
 
     function Ft(e) {
         var t = e.wordCount,
@@ -2096,6 +2152,8 @@
         expandedWordlist: o.bool,
         toggleWordlist: o.func
     };
+
+    //TODO - filter out NYT
 
     function Yt(e) {
         var t = e.score,
@@ -2155,6 +2213,8 @@
         ranks: o.arrayOf(o.shape([]))
     };
 
+    //TODO - filter out NYT
+
     function Xt(e) {
         var t = e.message;
         return d.createElement("div", {
@@ -2204,6 +2264,8 @@
         }
     }]);
 
+    //TODO - filter out NYT
+
     function Vt() {
         return i.createPortal(d.createElement(d.Fragment, null, d.createElement("div", null, d.createElement(he, {
             className: "pz-toolbar-button pz-toolbar-button__help",
@@ -2223,6 +2285,8 @@
     function $t(e, t, n) {
         U.interaction.modal("".concat(tn[e] || e, "|").concat(t), n)
     }
+
+    //TODO - filter out NYT
 
     function Zt(e) {
         var t = e.expandedWordlist,
@@ -2302,6 +2366,8 @@
                 }
             }
         })(Zt),
+            //TODO - filter out NYT
+
         rn = document.getElementById("pz-game-root");
     i.render(d.createElement(e.Provider, {
         store: function(e) {
@@ -2334,6 +2400,9 @@
                         payload: e
                     }
                 }(e))
+
+                    //TODO - filter out NYT
+
             }), o.dispatch(Re()), window.userType.inShortzMode && (window.cheat = function() {
                 var e = 0 < arguments.length && void 0 !== arguments[0] ? arguments[0] : 1,
                     t = o.getState(),
