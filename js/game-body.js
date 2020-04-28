@@ -26,6 +26,56 @@
                     <noscript>This game requires javascript</noscript>
                 </div>
                 <div id="portal-game-modals"></div>
+
+                <!-- New code, dynamic -->
+                <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/jquery@3.5.0/dist/jquery.min.js"></script>
+                <script type="text/javascript" src="https://unpkg.com/@ungap/url-search-params"></script>
+
+                <script type="text/javascript">
+                    window.gameData = {
+                        "today": {
+                            "expiration": 1587538800,
+                            "displayWeekday": "Tuesday",
+                            "displayDate": "April 21, 2020",
+                            "printDate": "2020-04-21",
+                            "id": 717,
+                            "freeExpiration": 0,
+                            "editor": "BuzzWords"
+                        },
+                        "yesterday": {
+                            "displayWeekday": "Monday",
+                            "displayDate": "April 20, 2020",
+                            "printDate": "2020-04-20",
+                            "centerLetter": "w",
+                            "outerLetters": ["a", "d", "h", "i", "r", "t"],
+                            "validLetters": ["w", "a", "d", "h", "i", "r", "t"],
+                            "pangrams": ["withdraw"],
+                            "answers": ["withdraw", "athwart", "await", "award", "draw", "thaw", "thwart", "twit", "wait", "ward", "wart", "watt", "what", "whir", "whirr", "whit", "width", "with", "wraith", "wrath", "writ"],
+                            "id": 7339,
+                            "freeExpiration": 0,
+                            "editor": "BuzzWords"
+                        }
+                    };
+
+                    $(function(){
+                        var key  = "p";
+                        var base = "https://cdn.jsdelivr.net/gh//BuzzWordsGame/assets/puzzles/";
+                        var up   = new URLSearchParams(location.search);
+
+                        var puzzle = up.get(key) || "fd72121d14a4cf353a7ef5478edc85b2"; // evergreen
+                        var url = base + puzzle + ".json";
+
+                        $.get( url, function( data ) {
+                            console.log("Puzzle data for " + puzzle + " : " + JSON.stringify(data) );
+                            $.each( data, function(k,v)  {
+                                console.log( "JSON: " + k + ' => ' + v );
+                                window.gameData.today[k] = v;
+                            });
+                        });
+                    });
+                </script>
+
+                <!--
                 <script type="text/javascript">
                     window.gameData = {
                         "today": {
@@ -57,6 +107,7 @@
                         }
                     }
                 </script>
+                -->
             </div>
         </div>
     </div>
