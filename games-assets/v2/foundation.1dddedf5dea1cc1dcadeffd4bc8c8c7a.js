@@ -205,7 +205,11 @@
             }
         },
         R = x(function() {
-            return _.get("/puzzles/user?bust=".concat(y()))
+            //XXX remove
+            console.log("GET GAME: " + JSON.stringify(e));
+            //XXX removed
+            //return _.get("/puzzles/user?bust=".concat(y()))
+            return {"id":42,"displayName":""};
         }, t, "pz-user", j),
         Y = d.userType,
         U = "fluid",
@@ -292,7 +296,27 @@
     var W = document.body.classList.contains("pz-mobile"),
         $ = (J("ratio-hook"), J("width-hook"), d.navigator),
         G = x(function() {
-            return _.get("/puzzles/device")
+            /*
+            {
+              "feedback": "\n\n\n----\nDevice summary:\nPage: %s\nBrowser: Chrome 81.0.4044.113\nOS: OS X 10.15.2\nScreen Resolution: %s x %s\nViewport Size: %s x %s\nTimezone: %s\nRegi: %s\nDigi: %s\nXwd: %s\nHd: %s\nPage View: %s\n",
+              "description": "Chrome 81.0.4044.113 on OS X 10.15.2 64-bit",
+              "layout": "Blink",
+              "manufacturer": null,
+              "name": "Chrome",
+              "prerelease": null,
+              "product": null,
+              "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36",
+              "version": "81.0.4044.113",
+              "os": {
+                "architecture": 64,
+                "family": "OS X",
+                "version": "10.15.2"
+              }
+            }
+            */
+          //XXX removed
+          //return _.get("/puzzles/device")
+          return {};
         }, e, "pz-device", $.userAgent);
 
     function V(e, t) {

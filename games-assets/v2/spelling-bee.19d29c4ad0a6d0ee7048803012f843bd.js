@@ -283,6 +283,8 @@
 
     //TODO - filter out NYT
     function R(e) {
+        //XXX remove
+        console.log("GET GAME: " + JSON.stringify(e));
         return u.xhr.get("".concat(u.env.api, "/svc/spelling-bee/v1/game/").concat(e, ".json")).then(function(e) {
             return e.answers
         }).catch(function(e) {
@@ -292,6 +294,8 @@
 
     //TODO - filter out NYT
     function C(e, t) {
+        //XXX remove
+        console.log("PUT GAME: " + JSON.stringify(e) + " " + JSON.stringify(t));
         return t.length ? u.xhr.put("".concat(u.env.api, "/svc/spelling-bee/v1/game.json"), {
             puzzleID: e,
             answers: t
@@ -337,6 +341,8 @@
         }), t.subscribe(function() {
             var e = t.getState().foundWords;
             l !== e.length && (l = e.length, 0 === e.length ? (function(e) {
+                //XXX remove
+                console.log("DELETE GAME: " + JSON.stringify(e));
                 delete window.resetProgressComplete, u.xhr.delete("".concat(u.env.api, "/svc/spelling-bee/v1/game/").concat(e, ".json")).then(function() {
                     window.resetProgressComplete = !0
                 }).catch(function(e) {
