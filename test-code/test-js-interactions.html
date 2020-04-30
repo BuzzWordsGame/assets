@@ -1,0 +1,51 @@
+<header>
+    <title>JS Interactions</title>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/jquery@3.5.0/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="https://unpkg.com/@ungap/url-search-params"></script>
+
+    <!--     <script defer="" type="text/javascript" src="test-js-interactions.js"></script> -->
+
+    <script defer="" type="text/javascript">
+        $(function(){
+            var key  = "p";
+            var base = "https://cdn.jsdelivr.net/gh//BuzzWordsGame/assets/puzzles/";
+            var up   = new URLSearchParams(location.search);
+
+            var puzzle = up.get(key) || "fd72121d14a4cf353a7ef5478edc85b2"; // evergreen
+            var url = base + puzzle + ".json";
+
+            $.get( url, function( data ) {
+                console.log("Puzzle data for " + puzzle + " : " + JSON.stringify(data) );
+
+                $.each( data, function(k,v)  {
+                    console.log( "JSON: " + k + ' => ' + v );
+                });
+            });
+        })
+/*
+    //TODO - filter out NYT
+    function R(e) {
+        return u.xhr.get("".concat(u.env.api, "/svc/spelling-bee/v1/game/").concat(e, ".json")).then(function(e) {
+            return e.answers
+        }).catch(function(e) {
+            console.error("unable to get remote progress", e)
+        })
+    }
+*/
+
+    </script>
+
+
+    <!--
+    <script type="text/javascript">
+        console.log("in test-interactions.js");
+
+        var up = new URLSearchParams(location.search);
+        //console.log("URL Param p: " + up.get("p"));
+        for (const [key, value] of up.entries()) {
+            console.log( "UP: " + key + ' => ' + value );
+        }
+    </script
+    -->
+
+</header>

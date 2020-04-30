@@ -315,8 +315,8 @@
             }
             */
           //XXX removed
-          //return _.get("/puzzles/device")
-          return {};
+          return _.get("https://www.nytimes.com/puzzles/device");
+          //return {};
         }, e, "pz-device", $.userAgent);
 
     function V(e, t) {
@@ -582,6 +582,17 @@
                 l = {
                     withCookie: !1
                 };
+
+    console.log("foundation:");
+    console.log("n = " + JSON.stringify(n));
+    console.log("r = " + JSON.stringify(r));
+    console.log("o = " + JSON.stringify(o));
+    console.log("i = " + JSON.stringify(i));
+    console.log("a = " + JSON.stringify(a));
+    console.log("c = " + JSON.stringify(c));
+    console.log("s = " + JSON.stringify(s));
+    console.log("u = " + JSON.stringify(u));
+
             /ccpa-preview=true/.test(d.location.search) && _.get(Te, l).catch(function() {});
             for (var e = function(e) {
                     function t(e) {

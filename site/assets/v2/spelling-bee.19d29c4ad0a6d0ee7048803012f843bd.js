@@ -4,6 +4,35 @@
     "use strict";
     var d = "default" in r ? r.default : r;
 
+    console.log("r = " + JSON.stringify(r));
+    console.log("i = " + JSON.stringify(i));
+    console.log("e = " + JSON.stringify(e));
+    console.log("u = " + JSON.stringify(u));
+    console.log("n = " + JSON.stringify(n));
+    console.log("a = " + JSON.stringify(a));
+    console.log("t = " + JSON.stringify(t));
+    //console.log("o = " + JSON.stringify(o)); // <--- breaks dumps - circular
+    console.log("f = " + JSON.stringify(f));
+
+    //window.alert(JSON.stringify(u));
+    //window.alert(document.body.classList.contains("pz-dont-touch"));
+
+/*
+r = {"Children":{},"__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED":{"ReactCurrentDispatcher":{"current":null},"ReactCurrentOwner":{"current":null},"IsSomeRendererActing":{"current":false},"Scheduler":{"unstable_ImmediatePriority":1,"unstable_UserBlockingPriority":2,"unstable_NormalPriority":3,"unstable_IdlePriority":5,"unstable_LowPriority":4,"unstable_Profiling":null},"SchedulerTracing":{"__interactionsRef":null,"__subscriberRef":null},"ReactCurrentBatchConfig":{"suspense":null}},"version":"16.13.1"}
+
+VM14539:8 i = {"__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED":{"Events":[null,null,null,null,{"blur":{"phasedRegistrationNames":{"bubbled":"onBlur","captured":"onBlurCapture"},"dependencies":["blur"],"eventPriority":0},"cancel":{"phasedRegistrationNames":{"bubbled":"onCancel","captured":"onCancelCapture"},"dependencies":["cancel"],"eventPriority":0},"click":{"phasedRegistrationNames":{"bubbled":"onClick","captured":"onClickCapture"},"dependencies":["click"],"eventPriority":0},"close":{"phasedRegistrationNames":{"bubbled":"onClose","captured":"onCloseCapture"},"dependencies":["close"],"eventPriority":0},"contextMenu":{"phasedRegistrationNames":{"bubbled":"onContextMenu","captured":"onContextMenuCapture"},"dependencies":["contextmenu"],"eventPriority":0},"copy":{"phasedRegistrationNames":{"bubbled":"onCopy","captured":"onCopyCapture"},"dependencies":["copy"],"eventPriority":0},"cut":{"phasedRegistrationNames":{"bubbled":"onCut","captured":"onCutCapture"},"dependencies":["cut"],"eventPriority":0},"auxClick":{"phasedRegistrationNames":{"bubbled":"onAuxClick","captured":"onAuxClickCapture"},"dependencies":["auxclick"],"eventPriority":0},"doubleClick":{"phasedRegistrationNames":{"bubbled":"onDoubleClick","captured":"onDoubleClickCapture"},"dependencies":["dblclick"],"eventPriority":0},"dragEnd":{"phasedRegistrationNames":{"bubbled":"onDragEnd","captured":"onDragEndCapture"},"dependencies":["dragend"],"eventPriority":0},"dragStart":{"phasedRegistrationNames":{"bubbled":"onDragStart","captured":"onDragStartCapture"},"dependencies":["dragstart"],"eventPriority":0},"drop":{"phasedRegistrationNames":{"bubbled":"onDrop","captured":"onDropCapture"},"dependencies":["drop"],"eventPriority":0},"focus":{"phasedRegistrationNames":{"bubbled":"onFocus","captured":"onFocusCapture"},"dependencies":["focus"],"eventPriority":0},"input":{"phasedRegistrationNames":{"bubbled":"onInput","captured":"onInputCapture"},"dependencies":["input"],"eventPriority":0},"invalid":{"phasedRegistrationNames":{"bubbled":"onInvalid","captured":"onInvalidCapture"},"dependencies":["invalid"],"eventPriority":0},"keyDown":{"phasedRegistrationNames":{"bubbled":"onKeyDown","captured":"onKeyDownCapture"},"dependencies":["keydown"],"eventPriority":0},"keyPress":{"phasedRegistrationNames":{"bubbled":"onKeyPress","captured":"onKeyPressCapture"},"dependencies":["keypress"],"eventPriority":0},"keyUp":{"phasedRegistrationNames":{"bubbled":"onKeyUp","captured":"onKeyUpCapture"},"dependencies":["keyup"],"eventPriority":0},"mouseDown":{"phasedRegistrationNames":{"bubbled":"onMouseDown","captured":"onMouseDownCapture"},"dependencies":["mousedown"],"eventPriority":0},"mouseUp":{"phasedRegistrationNames":{"bubbled":"onMouseUp","captured":"onMouseUpCapture"},"dependencies":["mouseup"],"eventPriority":0},"paste":{"phasedRegistrationNames":{"bubbled":"onPaste","captured":"onPasteCapture"},"dependencies":["paste"],"eventPriority":0},"pause":{"phasedRegistrationNames":{"bubbled":"onPause","captured":"onPauseCapture"},"dependencies":["pause"],"eventPriority":0},"play":{"phasedRegistrationNames":{"bubbled":"onPlay","captured":"onPlayCapture"},"dependencies":["play"],"eventPriority":0},"pointerCancel":{"phasedRegistrationNames":{"bubbled":"onPointerCancel","captured":"onPointerCancelCapture"},"dependencies":["pointercancel"],"eventPriority":0},"pointerDown":{"phasedRegistrationNames":{"bubbled":"onPointerDown","captured":"onPointerDownCapture"},"dependencies":["pointerdown"],"eventPriority":0},"pointerUp":{"phasedRegistrationNames":{"bubbled":"onPointerUp","captured":"onPointerUpCapture"},"dependencies":["pointerup"],"eventPriority":0},"rateChange":{"phasedRegistrationNames":{"bubbled":"onRateChange","captured":"onRateChangeCapture"},"dependencies":["ratechange"],"eventPriority":0},"reset":{"phasedRegistrationNames":{"bubbled":"onReset","captured":"onResetCapture"},"dependencies":["reset"],"eventPriority":0},"seeked":{"phasedRegistrationNames":{"bubbled":"onSeeked","captured":"onSeekedCapture"},"dependencies":["seeked"],"eventPriority":0},"submit":{"phasedRegistrationNames":{"bubbled":"onSubmit","captured":"onSubmitCapture"},"dependencies":["submit"],"eventPriority":0},"touchCancel":{"phasedRegistrationNames":{"bubbled":"onTouchCancel","captured":"onTouchCancelCapture"},"dependencies":["touchcancel"],"eventPriority":0},"touchEnd":{"phasedRegistrationNames":{"bubbled":"onTouchEnd","captured":"onTouchEndCapture"},"dependencies":["touchend"],"eventPriority":0},"touchStart":{"phasedRegistrationNames":{"bubbled":"onTouchStart","captured":"onTouchStartCapture"},"dependencies":["touchstart"],"eventPriority":0},"volumeChange":{"phasedRegistrationNames":{"bubbled":"onVolumeChange","captured":"onVolumeChangeCapture"},"dependencies":["volumechange"],"eventPriority":0},"drag":{"phasedRegistrationNames":{"bubbled":"onDrag","captured":"onDragCapture"},"dependencies":["drag"],"eventPriority":1},"dragEnter":{"phasedRegistrationNames":{"bubbled":"onDragEnter","captured":"onDragEnterCapture"},"dependencies":["dragenter"],"eventPriority":1},"dragExit":{"phasedRegistrationNames":{"bubbled":"onDragExit","captured":"onDragExitCapture"},"dependencies":["dragexit"],"eventPriority":1},"dragLeave":{"phasedRegistrationNames":{"bubbled":"onDragLeave","captured":"onDragLeaveCapture"},"dependencies":["dragleave"],"eventPriority":1},"dragOver":{"phasedRegistrationNames":{"bubbled":"onDragOver","captured":"onDragOverCapture"},"dependencies":["dragover"],"eventPriority":1},"mouseMove":{"phasedRegistrationNames":{"bubbled":"onMouseMove","captured":"onMouseMoveCapture"},"dependencies":["mousemove"],"eventPriority":1},"mouseOut":{"phasedRegistrationNames":{"bubbled":"onMouseOut","captured":"onMouseOutCapture"},"dependencies":["mouseout"],"eventPriority":1},"mouseOver":{"phasedRegistrationNames":{"bubbled":"onMouseOver","captured":"onMouseOverCapture"},"dependencies":["mouseover"],"eventPriority":1},"pointerMove":{"phasedRegistrationNames":{"bubbled":"onPointerMove","captured":"onPointerMoveCapture"},"dependencies":["pointermove"],"eventPriority":1},"pointerOut":{"phasedRegistrationNames":{"bubbled":"onPointerOut","captured":"onPointerOutCapture"},"dependencies":["pointerout"],"eventPriority":1},"pointerOver":{"phasedRegistrationNames":{"bubbled":"onPointerOver","captured":"onPointerOverCapture"},"dependencies":["pointerover"],"eventPriority":1},"scroll":{"phasedRegistrationNames":{"bubbled":"onScroll","captured":"onScrollCapture"},"dependencies":["scroll"],"eventPriority":1},"toggle":{"phasedRegistrationNames":{"bubbled":"onToggle","captured":"onToggleCapture"},"dependencies":["toggle"],"eventPriority":1},"touchMove":{"phasedRegistrationNames":{"bubbled":"onTouchMove","captured":"onTouchMoveCapture"},"dependencies":["touchmove"],"eventPriority":1},"wheel":{"phasedRegistrationNames":{"bubbled":"onWheel","captured":"onWheelCapture"},"dependencies":["wheel"],"eventPriority":1},"abort":{"phasedRegistrationNames":{"bubbled":"onAbort","captured":"onAbortCapture"},"dependencies":["abort"],"eventPriority":2},"animationEnd":{"phasedRegistrationNames":{"bubbled":"onAnimationEnd","captured":"onAnimationEndCapture"},"dependencies":["animationend"],"eventPriority":2},"animationIteration":{"phasedRegistrationNames":{"bubbled":"onAnimationIteration","captured":"onAnimationIterationCapture"},"dependencies":["animationiteration"],"eventPriority":2},"animationStart":{"phasedRegistrationNames":{"bubbled":"onAnimationStart","captured":"onAnimationStartCapture"},"dependencies":["animationstart"],"eventPriority":2},"canPlay":{"phasedRegistrationNames":{"bubbled":"onCanPlay","captured":"onCanPlayCapture"},"dependencies":["canplay"],"eventPriority":2},"canPlayThrough":{"phasedRegistrationNames":{"bubbled":"onCanPlayThrough","captured":"onCanPlayThroughCapture"},"dependencies":["canplaythrough"],"eventPriority":2},"durationChange":{"phasedRegistrationNames":{"bubbled":"onDurationChange","captured":"onDurationChangeCapture"},"dependencies":["durationchange"],"eventPriority":2},"emptied":{"phasedRegistrationNames":{"bubbled":"onEmptied","captured":"onEmptiedCapture"},"dependencies":["emptied"],"eventPriority":2},"encrypted":{"phasedRegistrationNames":{"bubbled":"onEncrypted","captured":"onEncryptedCapture"},"dependencies":["encrypted"],"eventPriority":2},"ended":{"phasedRegistrationNames":{"bubbled":"onEnded","captured":"onEndedCapture"},"dependencies":["ended"],"eventPriority":2},"error":{"phasedRegistrationNames":{"bubbled":"onError","captured":"onErrorCapture"},"dependencies":["error"],"eventPriority":2},"gotPointerCapture":{"phasedRegistrationNames":{"bubbled":"onGotPointerCapture","captured":"onGotPointerCaptureCapture"},"dependencies":["gotpointercapture"],"eventPriority":2},"load":{"phasedRegistrationNames":{"bubbled":"onLoad","captured":"onLoadCapture"},"dependencies":["load"],"eventPriority":2},"loadedData":{"phasedRegistrationNames":{"bubbled":"onLoadedData","captured":"onLoadedDataCapture"},"dependencies":["loadeddata"],"eventPriority":2},"loadedMetadata":{"phasedRegistrationNames":{"bubbled":"onLoadedMetadata","captured":"onLoadedMetadataCapture"},"dependencies":["loadedmetadata"],"eventPriority":2},"loadStart":{"phasedRegistrationNames":{"bubbled":"onLoadStart","captured":"onLoadStartCapture"},"dependencies":["loadstart"],"eventPriority":2},"lostPointerCapture":{"phasedRegistrationNames":{"bubbled":"onLostPointerCapture","captured":"onLostPointerCaptureCapture"},"dependencies":["lostpointercapture"],"eventPriority":2},"playing":{"phasedRegistrationNames":{"bubbled":"onPlaying","captured":"onPlayingCapture"},"dependencies":["playing"],"eventPriority":2},"progress":{"phasedRegistrationNames":{"bubbled":"onProgress","captured":"onProgressCapture"},"dependencies":["progress"],"eventPriority":2},"seeking":{"phasedRegistrationNames":{"bubbled":"onSeeking","captured":"onSeekingCapture"},"dependencies":["seeking"],"eventPriority":2},"stalled":{"phasedRegistrationNames":{"bubbled":"onStalled","captured":"onStalledCapture"},"dependencies":["stalled"],"eventPriority":2},"suspend":{"phasedRegistrationNames":{"bubbled":"onSuspend","captured":"onSuspendCapture"},"dependencies":["suspend"],"eventPriority":2},"timeUpdate":{"phasedRegistrationNames":{"bubbled":"onTimeUpdate","captured":"onTimeUpdateCapture"},"dependencies":["timeupdate"],"eventPriority":2},"transitionEnd":{"phasedRegistrationNames":{"bubbled":"onTransitionEnd","captured":"onTransitionEndCapture"},"dependencies":["transitionend"],"eventPriority":2},"waiting":{"phasedRegistrationNames":{"bubbled":"onWaiting","captured":"onWaitingCapture"},"dependencies":["waiting"],"eventPriority":2},"mouseEnter":{"registrationName":"onMouseEnter","dependencies":["mouseout","mouseover"]},"mouseLeave":{"registrationName":"onMouseLeave","dependencies":["mouseout","mouseover"]},"pointerEnter":{"registrationName":"onPointerEnter","dependencies":["pointerout","pointerover"]},"pointerLeave":{"registrationName":"onPointerLeave","dependencies":["pointerout","pointerover"]},"change":{"phasedRegistrationNames":{"bubbled":"onChange","captured":"onChangeCapture"},"dependencies":["blur","change","click","focus","input","keydown","keyup","selectionchange"]},"select":{"phasedRegistrationNames":{"bubbled":"onSelect","captured":"onSelectCapture"},"dependencies":["blur","contextmenu","dragend","focus","keydown","keyup","mousedown","mouseup","selectionchange"]},"beforeInput":{"phasedRegistrationNames":{"bubbled":"onBeforeInput","captured":"onBeforeInputCapture"},"dependencies":["compositionend","keypress","textInput","paste"]},"compositionEnd":{"phasedRegistrationNames":{"bubbled":"onCompositionEnd","captured":"onCompositionEndCapture"},"dependencies":["blur","compositionend","keydown","keypress","keyup","mousedown"]},"compositionStart":{"phasedRegistrationNames":{"bubbled":"onCompositionStart","captured":"onCompositionStartCapture"},"dependencies":["blur","compositionstart","keydown","keypress","keyup","mousedown"]},"compositionUpdate":{"phasedRegistrationNames":{"bubbled":"onCompositionUpdate","captured":"onCompositionUpdateCapture"},"dependencies":["blur","compositionupdate","keydown","keypress","keyup","mousedown"]}},null,null,null,null,null,null,null,{"current":false}]},"version":"16.13.1"}
+VM14539:9 e = {}
+
+VM14539:10 u = {"env":"","user":{},"userType":{"isLoggedIn":true,"hasXwd":true,"hasDigi":false,"isErsatzShortz":false,"inShortzMode":false,"entitlement":"cr"},"mobileNavTools":{},"xhr":{},"abra":{}}
+
+VM14539:11 n = {"__esModule":true}
+
+VM14539:12 a = {}
+
+t = {"__esModule":true}
+
+*/
+
     function m(e) {
         return function(e) {
             console.log("Exception here for 'e': " + e);
@@ -905,7 +934,10 @@
 
     //TODO - filter out NYT
     //Buzz: Content for yesterday's answers? YES
+
     function ue(e) {
+        console.log("yesterday: " + JSON.stringify(e));
+        //console.log("found: " + t.getState().foundWords);
         var t = e.displayDate,
             n = e.centerLetter,
             r = e.validLetters,
@@ -913,7 +945,7 @@
             a = e.foundWords;
         return d.createElement(d.Fragment, null, d.createElement("h3", {
             className: "sb-modal-title"
-        }, "Yesterday’s Answers BUZZ"), d.createElement("div", {
+        }, "Yesterday’s Answers"), d.createElement("div", {
             className: "sb-modal-date__yesterday"
         }, t), d.createElement("div", {
             className: "sb-modal-letters"
@@ -934,6 +966,43 @@
         }))))
     }
     ue.propTypes = {
+        displayDate: o.string,
+        centerLetter: o.string,
+        validLetters: o.arrayOf(o.string),
+        answers: o.arrayOf(o.string),
+        foundWords: o.arrayOf(o.string)
+    };
+
+
+    function answers(e) {
+        var t = e.displayDate,
+            n = e.centerLetter,
+            r = e.validLetters,
+            o = e.answers,
+            a = e.foundWords;
+        return d.createElement(d.Fragment, null, d.createElement("h3", {
+            className: "sb-modal-title"
+        }, "Your Progress"), d.createElement("div", {
+            className: "sb-modal-date__yesterday"
+        }, "!!! SPOILERS BELOW !!!"), d.createElement("div", {
+            className: "sb-modal-letters"
+        }, r), d.createElement("div", {
+            className: "sb-modal-wordlist"
+        }, d.createElement("ul", {
+            className: "sb-modal-wordlist-items"
+        }, o.map(function(e) {
+            return d.createElement("li", {
+                key: e,
+                "data-testid": "yesterdays-answer-word"
+            }, d.createElement(le, {
+                value: e,
+                centerLetter: n
+            }), a.includes(e) && d.createElement("span", {
+                className: "check"
+            }))
+        }))))
+    }
+    answers.propTypes = {
         displayDate: o.string,
         centerLetter: o.string,
         validLetters: o.arrayOf(o.string),
@@ -975,7 +1044,11 @@
         }))))
     }
     var de = e.connect(function(e) {
-        var t = e.yesterday;
+        console.log("de e: " + JSON.stringify(e));
+
+        //XXX Hack to use current answers instead of 'yesterday'
+        //var t = e.yesterday;
+        var t = e;
         return {
             displayDate: t.displayDate,
             centerLetter: t.centerLetter,
@@ -983,7 +1056,9 @@
             answers: t.answers,
             foundWords: t.foundWords
         }
-    })(ue);
+    //XXX Hack to use the 'answers' function instead of 'yesterday'
+    //})(ue);
+    })(answers);
     fe.propTypes = {
         lock: o.func
     };
@@ -2180,6 +2255,7 @@
     //TODO - filter out NYT
 
     function Ft(e) {
+        console.log("Ft e: " + JSON.stringify(e));
         var t = e.wordCount,
             n = e.recentWords,
             r = e.centerLetter,
@@ -2361,7 +2437,7 @@
             className: "pz-toolbar-button pz-toolbar-button__yesterday",
             modal: "yesterday",
             triggerName: "toolbar"
-        }, "Yesterday’s Answers")), en)
+        }, "I Give Up :(")), en)
     }
 
     function $t(e, t, n) {
