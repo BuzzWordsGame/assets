@@ -265,7 +265,8 @@ t = {"__esModule":true}
             return d.createElement( "div", {
                 className: "sb-modal-letters"
             }, d.createElement("a", {
-                href: "/?p=" + window.gameData.links[e]
+            // XXX FIXME as inputs
+                href: location.origin + location.pathname + "?p=" + window.gameData.links[e]
             }, e))
         })));
     };
@@ -2429,15 +2430,17 @@ t = {"__esModule":true}
             className: "pz-toolbar-button pz-toolbar-button__help",
             modal: "games",
             triggerName: "toolbar"
-        }, "Play Another!"), d.createElement(he, {
+        }, "Play Another!"),
+        /*d.createElement(he, {
             className: "pz-toolbar-button pz-toolbar-button__save",
             modal: "save",
             triggerName: "toolbar"
-        }, "Save & Quit")), d.createElement(he, {
+        }, "Save & Quit")*/
+        ), d.createElement(he, {
             className: "pz-toolbar-button pz-toolbar-button__yesterday",
             modal: "yesterday",
             triggerName: "toolbar"
-        }, "I Give Up :(")), en)
+        }, "Give Up :(")), en)
     }
 
     function $t(e, t, n) {
