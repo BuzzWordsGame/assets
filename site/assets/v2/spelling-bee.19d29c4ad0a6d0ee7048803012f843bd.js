@@ -208,7 +208,7 @@ t = {"__esModule":true}
             return function(e, t) {
                 if (!(e instanceof t)) throw new TypeError("Cannot call a class as a function")
             }(this, r), (t = n.call(this, e)).state = {
-                href: "mailto:NYTCrossword@nytimes.com"
+                href: "mailto:buzzwordgame@gmail.com"
             }, t
         }
         return function(e, t, n) {
@@ -337,12 +337,12 @@ t = {"__esModule":true}
             className: "sb-modal-message"
         }, "Think we missed a word? Email us at", " ", d.createElement(T, {
             subject: "Spelling Bee Word Suggestion",
-            href: "mailto:buzzwords@nytimes.com"
+            href: "mailto:buzzwordgame@gmail.com"
         }, "buzzwords@nytimes.com"), "."), d.createElement("p", {
             className: "sb-modal-message"
         }, "Have feedback? Email us at ", d.createElement(T, {
             subject: "Spelling Bee Feedback"
-        }, "NYTCrossword@nytimes.com"), "."))
+        }, "buzzwordgame@gmail.com"), "."))
     };
     j.propTypes = {};
 
@@ -365,7 +365,7 @@ t = {"__esModule":true}
             className: "sb-modal-message"
         }, "Have feedback? Email us at ", d.createElement(T, {
             subject: "Spelling Bee Feedback"
-        }, "NYTCrossword@nytimes.com"), "."))
+        }, "buzzwordgame@gmail.com"), "."))
     }
     L.propTypes = {
         ranks: o.arrayOf(o.shape({

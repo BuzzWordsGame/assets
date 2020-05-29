@@ -402,7 +402,7 @@
             n(t, "open"), n(e, "active")
         })
     }
-    var te, ne, re, oe, ie, ae = "mailto:NYTCrossword@nytimes.com",
+    var te, ne, re, oe, ie, ae = "mailto:buzzwordgame@gmail.com",
         ce = "pz-seen-nav-promo",
         se = "show-new",
         ue = (ne = c(p("global-nav")), re = c(p("mobile-toolbar")), oe = "show-mobile-toolbar", ie = {
