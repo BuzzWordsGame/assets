@@ -333,8 +333,6 @@ t = {"__esModule":true}
             className: "sb-modal-list"
         }, d.createElement("li", null, "4-letter words are worth 1 point each."), d.createElement("li", null, "Longer words earn 1 point per letter."), d.createElement("li", null, "Each puzzle includes at least one “pangram” which uses every letter. These are worth 7 extra points!")), d.createElement("p", {
             className: "sb-modal-message"
-        }, "New puzzles are released daily at 3:00 a.m. ET."), d.createElement("p", {
-            className: "sb-modal-message"
         }, "Think we missed a word? Email us at", " ", d.createElement(T, {
             subject: "Spelling Bee Word Suggestion",
             href: "mailto:buzzwordgame@gmail.com"
@@ -506,7 +504,9 @@ t = {"__esModule":true}
             className: f("sb-modal-button", {
                 disabled: o
             }),
-            href: "/puzzles",
+            // NYTs hub is /puzzles, in our case, go back to the home page
+            //href: "/puzzles",
+            href: "/",
             onClick: function(e) {
                 if (o) return e.preventDefault();
                 U.interaction.gameplay("back-to-hub", r)
@@ -697,7 +697,8 @@ t = {"__esModule":true}
             onClick: function() {
                 return t("yesterday", "get-started")
             }
-        }, "Yesterday")
+        // This used to give yesterdays answer. We use it to show today's solutions.
+        }, "I Give Up :(")
     }
     ee.propTypes = {
         toggleModal: o.func.isRequired
