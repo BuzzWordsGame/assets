@@ -338,7 +338,7 @@ t = {"__esModule":true}
         }, "Think we missed a word? Email us at", " ", d.createElement(T, {
             subject: "Spelling Bee Word Suggestion",
             href: "mailto:buzzwordgame@gmail.com"
-        }, "buzzwords@nytimes.com"), "."), d.createElement("p", {
+        }, "buzzwordgame@gmail.com"), "."), d.createElement("p", {
             className: "sb-modal-message"
         }, "Have feedback? Email us at ", d.createElement(T, {
             subject: "Spelling Bee Feedback"
